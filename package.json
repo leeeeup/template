@@ -1,0 +1,42 @@
+{
+        "name": "vite-project",
+        "private": true,
+        "version": "0.0.0",
+        "type": "commonjs",
+        "scripts": {
+                "dev": "vite",
+                "build": "vue-tsc && vite build",
+                "preview": "vite preview",
+                "lint": "eslint src --fix",
+                "format": "prettier --write \"./**/*.{html,vue,ts,js,json,md}\"",
+                "lint:style": "stylelint \"./**/*.{css,less,vue,html}\" --fix"
+        },
+        "dependencies": {
+                "@typescript-eslint/eslint-plugin": "^7.8.0",
+                "@typescript-eslint/parser": "^7.8.0",
+                "vue": "^3.4.21",
+                "vue-i18n": "^9.13.1"
+        },
+        "devDependencies": {
+                "@eslint/js": "^9.2.0",
+                "@stylistic/stylelint-plugin": "^2.1.2",
+                "@vitejs/plugin-vue": "^5.0.4",
+                "add": "^2.0.6",
+                "eslint": "^9.2.0",
+                "eslint-plugin-vue": "^9.26.0",
+                "globals": "^15.2.0",
+                "postcss": "^8.4.38",
+                "postcss-html": "^1.7.0",
+                "postcss-less": "^6.0.0",
+                "prettier": "^3.2.5",
+                "stylelint": "^16.5.0",
+                "stylelint-config-html": "^1.1.0",
+                "stylelint-config-recess-order": "^5.0.1",
+                "stylelint-config-standard": "^36.0.0",
+                "tailwindcss": "^3.4.3",
+                "typescript": "^5.2.2",
+                "typescript-eslint": "^7.8.0",
+                "vite": "^5.2.0",
+                "vue-tsc": "^2.0.6"
+        }
+}
